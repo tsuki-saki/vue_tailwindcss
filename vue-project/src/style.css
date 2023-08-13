@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* 
-@tailwind base; - 导入 Tailwind 的基本样式，这包括了一些重置样式和为 HTML 元素提供的默认样式。
-@tailwind components; - 导入由 Tailwind 提供的组件样式，这可以是由 @apply 指令创建的自定义组件或从配置文件中生成的组件。
-@tailwind utilities; - 导入 Tailwind 的所有实用程序类，这是 Tailwind 的核心特性，它提供了大量的实用工具类，如 text-center, bg-red-500 等。 */
