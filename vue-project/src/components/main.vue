@@ -16,15 +16,19 @@
 	import part2 from './all_part/part2.vue'
 	import part3 from './all_part/part3.vue'
 	import part4 from './all_part/part4.vue'
-	export default{
-		data() {
-			return {}
-		},
-		methods:{},
-		created(){
-		},
-		components:{part1,part2,part3,part4},
-	}
+	// export default{
+	// 	data() {
+	// 		return {}
+	// 	},
+	// 	methods:{},
+	// 	created(){
+	// 	},
+	// 	components:{part1,part2,part3,part4},
+	// }
+	export default {
+    components: {part1, part2, part3, part4},
+}
+
 	//导航栏响应滚动变色
 	window.onscroll=function(){
 		var topScroll =window.pageYOffset;
